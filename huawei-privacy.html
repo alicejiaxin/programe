@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 - 这历史不靠谱（HarmonyOS 版）</title>
+<meta name="description" content="这历史不靠谱 HarmonyOS 版隐私政策：无需账号，不申请任何系统权限，不联网，不收集、不上传、不分享任何个人信息。">
+<style>
+  :root {
+    --paper: #F7F7F3;
+    --ink: #21383A;
+    --teal: #176E70;
+    --coral: #B9513D;
+    --muted: #606E70;
+    --card: #FFFFFF;
+    --line: #E4E6E0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", -apple-system, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.75;
+  }
+  .hero {
+    background: linear-gradient(135deg, var(--teal) 0%, #0F5658 100%);
+    color: #fff;
+    padding: 60px 20px 52px;
+    text-align: center;
+  }
+  .hero .icon {
+    width: 84px; height: 84px; border-radius: 22px;
+    background: #fff; margin: 0 auto 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 42px; font-weight: 800; color: var(--teal);
+    box-shadow: 0 6px 24px rgba(0,0,0,.18);
+  }
+  .hero h1 { font-size: 29px; font-weight: 700; letter-spacing: 1px; }
+  .hero p { margin-top: 10px; font-size: 15px; opacity: .92; }
+  .hero .tagline { margin-top: 6px; font-size: 16px; font-weight: 600; color: #FFE3D6; }
+  main { max-width: 760px; margin: 0 auto; padding: 36px 20px 64px; }
+  section { margin-bottom: 38px; }
+  h2 {
+    font-size: 20px; font-weight: 700; margin-bottom: 16px;
+    padding-left: 12px; border-left: 4px solid var(--teal);
+  }
+  h2.coral { border-left-color: var(--coral); }
+  h3 { font-size: 16px; font-weight: 700; margin: 20px 0 8px; }
+  .meta { font-size: 14px; color: var(--muted); margin-bottom: 22px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 22px 24px; margin-bottom: 14px;
+  }
+  .card p { font-size: 15px; color: var(--muted); }
+  .card p + p { margin-top: 10px; }
+  .card b, .card strong { color: var(--ink); }
+  ul.plain { list-style: none; margin: 4px 0 0; }
+  ul.plain li {
+    font-size: 15px; color: var(--muted); padding: 7px 0 7px 22px; position: relative;
+  }
+  ul.plain li::before {
+    content: ""; position: absolute; left: 4px; top: 16px;
+    width: 7px; height: 7px; border-radius: 50%; background: var(--teal);
+  }
+  ul.plain li b { color: var(--ink); }
+  ol.steps { margin: 4px 0 0 20px; }
+  ol.steps li { font-size: 15px; color: var(--muted); padding: 5px 0; }
+  ol.steps li b { color: var(--ink); }
+  .note {
+    background: #EAF3F3; border: 1px solid #CBE0E0; border-left: 4px solid var(--teal);
+    border-radius: 10px; padding: 16px 18px; font-size: 15px; margin-bottom: 14px;
+  }
+  .note.warn { background: #FBF0EC; border-color: #EDD3C9; border-left-color: var(--coral); }
+  table {
+    width: 100%; border-collapse: collapse; background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  }
+  th, td {
+    text-align: left; padding: 12px 16px; font-size: 14px;
+    border-bottom: 1px solid var(--line); vertical-align: top;
+  }
+  th { background: #F1F2EC; color: var(--ink); font-weight: 700; white-space: nowrap; }
+  td { color: var(--muted); }
+  td b { color: var(--ink); }
+  tr:last-child td { border-bottom: none; }
+  .yes { color: var(--teal); font-weight: 700; }
+  .no { color: var(--coral); font-weight: 700; }
+  a { color: var(--teal); }
+  footer {
+    text-align: center; font-size: 13px; color: var(--muted);
+    padding: 24px 20px 40px; border-top: 1px solid var(--line);
+  }
+  footer strong { color: var(--ink); }
+  @media (max-width: 480px) {
+    .hero { padding: 46px 16px 42px; }
+    .hero h1 { font-size: 25px; }
+    main { padding: 28px 16px 48px; }
+    th, td { padding: 10px 12px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="icon">史</div>
+  <h1>隐私政策</h1>
+  <p class="tagline">这历史不靠谱 · HarmonyOS 版</p>
+  <p>纯离线单机应用 · 无需账号 · 不收集任何个人信息</p>
+</header>
+
+<main>
+
+  <p class="meta">
+    适用应用：这历史不靠谱（HarmonyOS 版）<br>
+    版本：1.0.0 &nbsp;·&nbsp; 生效日期：2026 年 10 月 6 日
+  </p>
+
+  <section>
+    <h2 class="coral">核心承诺</h2>
+    <div class="note">
+      本应用是一款<strong>完全离线的单机阅读应用</strong>。我们用一句话总结：
+      <strong>不联网、不要权限、不收集、不上传、不分享您的任何个人信息。</strong>
+    </div>
+    <ul class="plain">
+      <li><b>不联网</b>：应用未申请网络权限，也不包含任何联网代码，无法向任何服务器发送数据。</li>
+      <li><b>不要权限</b>：安装时不申请任何系统权限（无网络、无存储、无位置、无相机、无麦克风、无通讯录）。</li>
+      <li><b>不收集</b>：无账号、无登录、无广告、无第三方统计或追踪 SDK。</li>
+      <li><b>不上传</b>：所有文章、图片随安装包发布，阅读记录只写在您设备本地的应用私有空间。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>一、我们如何收集和使用个人信息</h2>
+    <div class="card">
+      <p><b>我们不收集任何个人信息。</b>本应用不需要注册或登录，不会要求您提供姓名、手机号、邮箱、身份证号、设备标识符等任何可识别个人身份的信息，也不会读取您的通讯录、照片、位置、麦克风或相机内容。</p>
+      <p>由于应用不申请网络权限，即使我们想收集数据，技术上也无法将任何信息传出您的设备。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>二、保存在您设备本地的数据</h2>
+    <div class="card">
+      <p>为了提供「收藏」「继续阅读」「字号与主题」等基础功能，应用会在您设备的<strong>应用私有目录</strong>内写入以下数据。这些数据<strong>仅存于本机，我们无法访问，也不会传输给任何人</strong>：</p>
+      <ul class="plain">
+        <li><b>收藏的文章</b>：您标记收藏的文章编号。</li>
+        <li><b>阅读历史与阅读进度</b>：最近读过的文章、读到哪一章，用于「继续阅读」。</li>
+        <li><b>搜索记录</b>：您在本机搜索框输入过的关键词（最多保留 10 条）。</li>
+        <li><b>阅读设置</b>：正文字号、深浅色主题等偏好。</li>
+      </ul>
+      <p style="margin-top:12px">这些数据存放在系统为该应用分配的沙箱内，其他应用无法读取。<b>卸载应用即会删除全部数据。</b></p>
+    </div>
+    <div class="note">
+      <strong>如何自行清除：</strong>在应用内进入「我的 → 字体与主题」，可清除阅读历史与搜索记录；卸载应用则删除全部本地数据。
+    </div>
+  </section>
+
+  <section>
+    <h2>三、系统权限使用情况</h2>
+    <div class="card">
+      <p>本应用<strong>不申请任何系统权限</strong>。以下为常被问及的权限说明：</p>
+    </div>
+    <table>
+      <thead>
+        <tr><th>权限 / 能力</th><th>是否使用</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>网络（INTERNET）</b></td><td class="no">未申请</td><td>应用为纯离线设计，无需联网即可使用全部功能。</td></tr>
+        <tr><td><b>存储 / 文件</b></td><td class="no">未申请</td><td>阅读数据写入应用私有目录，不读写您的公共文件。</td></tr>
+        <tr><td><b>位置信息</b></td><td class="no">未申请</td><td>应用与位置无关，不获取、不使用。</td></tr>
+        <tr><td><b>相机 / 麦克风</b></td><td class="no">未申请</td><td>应用无拍照、录音功能。</td></tr>
+        <tr><td><b>通讯录 / 日历</b></td><td class="no">未申请</td><td>不读取、不修改。</td></tr>
+        <tr><td><b>设备标识 / 剪贴板读取</b></td><td class="no">未申请</td><td>不读取设备标识符；仅在您主动点击「复制」时<strong>写入</strong>剪贴板。</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>四、第三方 SDK 与共享</h2>
+    <div class="card">
+      <p><b>本应用不包含任何第三方 SDK</b>，未接入广告平台、统计分析、崩溃上报、推送或社交登录等服务，因此不存在向第三方共享、转让或公开披露您个人信息的情形。</p>
+      <p>应用的全部功能（浏览、搜索、收藏、阅读记录等）均由应用自身与系统能力在本机完成，不经过任何服务器。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>五、分享功能如何工作</h2>
+    <div class="card">
+      <p>应用提供「分享」能力，整个过程<strong>完全在本机完成，不涉及我们的服务器</strong>：</p>
+      <ol class="steps">
+        <li><b>生成分享内容</b>：应用在本机把文章渲染成一张长图，或整理出一段文字摘要。</li>
+        <li><b>交由系统处理</b>：随后调用<strong>系统分享面板</strong>，由您选择要发送的目标应用。</li>
+        <li><b>数据去向</b>：您选择的目标应用如何处理这些内容，适用该应用自身的隐私政策。我们不会获得、记录或上传分享的内容与对象。</li>
+      </ol>
+      <p style="margin-top:12px">「复制文字」功能仅把摘要写入系统剪贴板，由您自行粘贴到目标位置。分享是您主动发起的操作，不分享则不会产生任何数据外发。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>六、关于语音朗读</h2>
+    <div class="card">
+      <p><b>HarmonyOS 版不提供语音朗读（听书）功能</b>，界面中不含相关入口，也不会加载任何语音模型或申请后台播放权限。因此本版本不涉及任何音频处理。</p>
+      <p>（iOS 与 Android 版提供离线朗读，其语音合成亦全部在本机完成，不会上传朗读内容；相关说明见对应版本的政策。）</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>七、未成年人与儿童隐私</h2>
+    <div class="card">
+      <p>本应用为面向公众的历史文化阅读内容，不收集任何用户（包括未满 14 周岁的儿童）的个人信息，也未设置任何面向儿童的个性化推荐或商业推广。家长可放心让未成年人使用。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>八、数据安全与跨境传输</h2>
+    <div class="card">
+      <p>由于应用不联网、不收集数据，您的阅读数据始终保存在本机，不存在数据在传输过程中被截获、也不存在个人信息出境（跨境传输）的情形。</p>
+      <p>应用私有目录中的数据受操作系统沙箱保护，受您设备自身的锁屏与加密机制保护。建议您为设备设置锁屏密码，以进一步保护本地数据。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>九、您的权利</h2>
+    <div class="card">
+      <ul class="plain">
+        <li><b>查询与管理</b>：您的数据均在应用内，可在「我的 → 阅读历史 / 字体与主题」中查看与管理。</li>
+        <li><b>删除</b>：可在应用内清除阅读历史与搜索记录；卸载应用将删除全部本地数据，且不可恢复。</li>
+        <li><b>撤回同意</b>：由于应用不收集个人信息，不存在需要撤回的授权；卸载即等同于终止使用。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>十、本政策的变更</h2>
+    <div class="card">
+      <p>若本政策发生变更，我们会更新本页面并修订顶部的生效日期。若未来版本因新增功能需要申请权限或处理数据，我们会在版本更新说明中明确告知，并在首次使用相关功能前征得您的同意。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>十一、联系我们</h2>
+    <div class="card">
+      <p>如您对本隐私政策或个人信息保护有任何疑问、意见或投诉，请联系开发团队：</p>
+      <p style="margin-top:10px">电子邮箱：<a href="mailto:jyz198701@sina.com">jyz198701@sina.com</a></p>
+      <p>我们会在收到您的反馈后尽快回复。</p>
+    </div>
+  </section>
+
+  <!-- 若华为应用市场要求展示备案号，请在此处补充，例如：
+  <section>
+    <h2>十二、应用备案信息</h2>
+    <div class="card"><p>备案号：京ICP备XXXXXXXX号-XXA</p></div>
+  </section>
+  -->
+
+</main>
+
+<footer>
+  <strong>这历史不靠谱</strong> · HarmonyOS 版 1.0.0<br>
+  本隐私政策于 2026 年 10 月 6 日发布并生效<br>
+  <a href="mailto:jyz198701@sina.com">jyz198701@sina.com</a>
+</footer>
+
+</body>
+</html>
